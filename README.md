@@ -118,9 +118,38 @@ KITNA THOUGHTFUL H NA YEHHH..(hsna toh bilkul bhi mtt)
       .container {
         flex-direction: column;
         align-items: center;
+        gap: 15px;
+      }
+      .card {
+        width: 90%;
+        max-width: 320px;
+      }
+      .modal-content iframe {
+        height: 300px;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+      body {
+        padding: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        width: 95%;
       }
       .modal-content iframe {
         height: 250px;
+      }
+      h1 {
+        font-size: 1.2em;
+      }
+      .card h2 {
+        font-size: 1em;
+      }
+      .card p {
+        font-size: 0.9em;
       }
     }
   </style>
