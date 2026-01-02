@@ -24,7 +24,6 @@ KITNA THOUGHTFUL H NA YEHHH..(hsna toh bilkul bhi mtt)
       justify-content: center; 
       
       gap: 20px;
-      margin-top: 40px;
     }
 
     .card {
@@ -114,6 +113,18 @@ KITNA THOUGHTFUL H NA YEHHH..(hsna toh bilkul bhi mtt)
       cursor: pointer;
     }
 
+    canvas {
+      z-index: 100 !important;
+    }
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
     @media (max-width: 768px) {
       .container {
         flex-direction: column;
@@ -156,11 +167,15 @@ KITNA THOUGHTFUL H NA YEHHH..(hsna toh bilkul bhi mtt)
 </head>
 <body>
 
-  <h1>-💌-OPEN WHEN MESSAGES-💌-</h1>
+  <div class="wrapper">
+    <h1>-💌-OPEN WHEN MESSAGES-💌-</h1>
 
-  <div class="container" id="recipeContainer">
-    <!-- Cards will be injected here by JavaScript -->
+    <div class="container" id="recipeContainer">
+      <!-- Cards will be injected here by JavaScript -->
 
+
+    </div>
+  </div>
 
   <!-- Modal -->
   <div class="modal" id="videoModal">
