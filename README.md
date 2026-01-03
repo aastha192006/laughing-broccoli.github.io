@@ -34,6 +34,8 @@ KITNA THOUGHTFUL H NA YEHHH..(hsna toh bilkul bhi mtt)
       flex-wrap: wrap;
       gap: 24px;
       justify-content: center; 
+      align-items: center;  
+      width: 100%; 
       
       margin-bottom: 30px;
     }
@@ -130,15 +132,20 @@ KITNA THOUGHTFUL H NA YEHHH..(hsna toh bilkul bhi mtt)
     }
 
     canvas {
-      z-index: 100 !important;
-    }
+  position: fixed !important;
+  z-index: 9999 !important;
+  pointer-events: none;
+}
+
+    
 
     .wrapper {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       min-height: 100vh;
+      width: 100%;
     }
 
     @media (max-width: 768px) {
