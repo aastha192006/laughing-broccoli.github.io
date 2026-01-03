@@ -19,32 +19,46 @@ KITNA THOUGHTFUL H NA YEHHH..(hsna toh bilkul bhi mtt)
       margin: 24px 0 4px;
 
     }
+     #app {
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(255,255,255,0.9);
+      border-radius: 16px;
+      box-shadow: 0 0 24px #fda08555;
+      padding: 30px 20px;
+      min-height: 70vh;
+    }
 
     .container {
       display: flex;
       flex-wrap: wrap;
+      gap: 24px;
       justify-content: center; 
       
-      gap: 20px;
+      margin-bottom: 30px;
     }
 
     .card {
       background: lavenderblush;
       box-shadow: 0 4px 16px rgba(0,0,0,0.12);
       border-radius: 12px;
-      width: 280px;
+      width: 200px;
       transition: transform 0.3s, box-shadow 0.3s;
+      padding: 12px;
+      text-align: center;
       overflow: hidden;
     }
 
     .card:hover {
-      transform: translateY(-10px) scale(1.05);
-      box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+      transform: scale(1.05);
+      box-shadow: 0 0 24px rgba(0,0,0,0.18);
     }
 
     .card img {
       width: 100%;
-      height: 180px;
+      border-radius:8px;
+      margin-bottom: 8px;
+      height: 182px;
       object-fit: cover;
     }
 
