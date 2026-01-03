@@ -10,12 +10,14 @@ KITNA THOUGHTFUL H NA YEHHH..(hsna toh bilkul bhi mtt)
       font-family: Arial, sans-serif;
       background-color: lavender;
       margin: 0;
-      padding: 20px;
+      padding: 0;
     }
  
     h1 {
       text-align: center;
       color: plum;
+      margin: 24px 0 4px;
+
     }
 
     .container {
