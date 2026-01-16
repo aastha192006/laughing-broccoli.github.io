@@ -3,7 +3,7 @@ KITNA THOUGHTFUL H NA YEHHH..(hsna toh bilkul bhi mtt)
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>   OPEN WHEN LETTERS  </title>
+  <title>   OPEN WHEN LETTERS   </title>
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
   <style>
     body {
