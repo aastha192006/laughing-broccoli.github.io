@@ -218,7 +218,7 @@ KITNA THOUGHTFUL H NA YEHHH..(hsna toh bilkul bhi mtt)
       },
       {
         name: "open when you are sad🫂",
-        description: "A reminder that it's okay to feel sad sometimes.",
+        description: "A reminder that it's okay to feel sad sometimes..",
         image: "https://i.pinimg.com/1200x/d7/52/2d/d7522d1a5953b0fae8e323d58710d5d1.jpg",
         video: "https://player.vimeo.com/video/1150406227"
       },
